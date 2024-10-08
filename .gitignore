@@ -1,0 +1,8 @@
+# driver
+geckodriver 
+
+# privacy
+*/personaldata.py
+
+# cache
+*/__pycache__
