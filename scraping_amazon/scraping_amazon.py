@@ -30,7 +30,7 @@ time.sleep(2)
 
 df = []
 
-for i in range(1, 21, 1):
+for i in range(1, 5, 1):
 
     web.get(f"https://www.amazon.com/s?k=cooker&page={i}")
     
@@ -49,8 +49,9 @@ for i in range(1, 21, 1):
                 'rating': rating.text,
                 'delivery': delivery.text
                 })
+            print(df[-1])
         except Exception as why:
-            print(why)
+            # print(why)
             continue
     
     print(f'Scraping page {i} finished.')
@@ -61,3 +62,16 @@ df.to_csv('scraping_amazon/result.csv')
 time.sleep(3)
 
 web.quit()
+
+
+
+
+
+
+
+
+
+
+
+
+

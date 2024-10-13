@@ -6,3 +6,8 @@ geckodriver
 
 # cache
 */__pycache__
+*.idea/
+
+# other
+*/result.csv
+*.webm
