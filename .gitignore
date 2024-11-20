@@ -3,6 +3,8 @@ geckodriver
 
 # privacy
 */personaldata.py
+credentials/*
+proxy/*
 
 # cache
 */__pycache__
